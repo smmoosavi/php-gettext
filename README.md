@@ -92,3 +92,7 @@ msgstr "سلام"
 ```bash
 $ msgfmt -cv -o locale/fa_IR/LC_MESSAGES/messages.mo locale/fa_IR/LC_MESSAGES/messages.po
 ```
+
+## Note
+
+thank Danilo Segan. [php-gettext 1.0.11](https://launchpad.net/php-gettext/trunk/1.0.11) used in this project
