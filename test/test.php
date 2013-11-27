@@ -1,5 +1,5 @@
 <?php
-require_once '../vendor/autoload.php'; // Autoload files u
+require_once '../../../../vendor/autoload.php'; // Autoload files u
 use smmoosavi\gettext\L10n;
 
 $locale = 'fa_IR';
