@@ -110,11 +110,10 @@ class gettext_reader {
 
     $MAGIC1 = "\x95\x04\x12\xde";
     $MAGIC2 = "\xde\x12\x04\x95";
-    $MAGIC3 = "\x95\x04\x12\xde";// PHP 5.4
 
     $this->STREAM = $Reader;
     $magic = $this->read(4);
-    if ($magic == $MAGIC1 or $magic==$MAGIC3) {
+    if ($magic == $MAGIC1) {
       $this->BYTEORDER = 1;
     } elseif ($magic == $MAGIC2) {
       $this->BYTEORDER = 0;
