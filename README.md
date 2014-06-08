@@ -4,7 +4,7 @@ Wrapper for php-gettext by danilo segan. This library provides PHP functions to 
 
 ## How to Install
 
-#### using [Composer](http://getcomposer.org/)
+#### Using [Composer](http://getcomposer.org/)
 
 Create a composer.json file in your project root:
 
@@ -87,7 +87,7 @@ msgstr "سلام"
 ```
 
 
-### Convert .po to .mo
+### Converting .po to .mo
 
 ```bash
 $ msgfmt -cv -o locale/fa_IR/LC_MESSAGES/messages.mo locale/fa_IR/LC_MESSAGES/messages.po
@@ -95,4 +95,4 @@ $ msgfmt -cv -o locale/fa_IR/LC_MESSAGES/messages.mo locale/fa_IR/LC_MESSAGES/me
 
 ## Note
 
-thank Danilo Segan. [php-gettext 1.0.11](https://launchpad.net/php-gettext/trunk/1.0.11) used in this project
+Thank Danilo Segan. [php-gettext 1.0.11](https://launchpad.net/php-gettext/trunk/1.0.11) used in this project
