@@ -54,7 +54,7 @@ $ php composer.phar install
 <?php // test.php
 require 'vendor/autoload.php';
 
-use smmoosavi\gettext\L10n;
+use smmoosavi\util\gettext\L10n;
 
 $locale = 'fa_IR';
 $lang = 'fa';

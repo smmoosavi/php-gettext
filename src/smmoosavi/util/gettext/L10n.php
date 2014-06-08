@@ -5,7 +5,7 @@
  * Time: 11:00 AM
  */
 
-namespace smmoosavi\gettext {
+namespace smmoosavi\util\gettext {
     class L10n
     {
         static $lang;
@@ -42,7 +42,7 @@ namespace smmoosavi\gettext {
     }
 }
 namespace {
-    use smmoosavi\gettext\L10n;
+    use smmoosavi\util\gettext\L10n;
 
     function __($text)
     {
