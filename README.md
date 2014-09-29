@@ -93,6 +93,10 @@ msgstr "سلام"
 $ msgfmt -cv -o locale/fa_IR/LC_MESSAGES/messages.mo locale/fa_IR/LC_MESSAGES/messages.po
 ```
 
+## TODO
+
+* Provide `ext-gettext`. You can track progress in `topic/provide-ext-gettext` branch.
+
 ## Note
 
 Thank Danilo Segan. [php-gettext 1.0.11](https://launchpad.net/php-gettext/trunk/1.0.11) used in this project
