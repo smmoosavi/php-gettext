@@ -94,6 +94,19 @@ namespace smmoosavi\util\gettext {
             }
             return self::$locales[self::$lang]->ngettext($single, $pluar, $number);
         }
+
+        /**
+         * provide ext-gettext functions.
+         */
+        public static function provide_ext()
+        {
+            if (extension_loaded('gettext')) {
+                return false; // gettext loaded by php. so nope
+            }
+            require_once '../../../load_ext.php';
+            return true;
+        }
+
     }
 }
 namespace {
